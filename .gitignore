@@ -1,0 +1,50 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+.idea/
+.DS_Store
+.history
+.zhsrc
+
+# PM2 startup json
+test-page.html
+
+# internal api auth token
+server/token/generated-auth-token.json
+
+# env
+.env
+
+# workbox files
+sw.*
+
+# newrelic
+newrelic_agent.log
+
+server/keys
+
+# onesignal
+static/OneSignalSDKUpdaterWorker.js
+static/OneSignalSDKWorker.js
+
+# sitemap games cache
+utils/sitemap/game-routes-collection.json
+
+.yarnrc
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
